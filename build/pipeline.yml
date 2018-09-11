@@ -1,0 +1,4 @@
+steps:
+  - label: ":console: basics"
+    command: "build/command.sh"
+    timeout_in_minutes: 2
