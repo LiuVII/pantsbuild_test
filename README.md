@@ -1,3 +1,4 @@
+[![Build status](https://badge.buildkite.com/6b28a6d213fed74fdc6dcf258dc42c1f65ae4ce9a9cd10f2fa.svg?branch=master)](https://buildkite.com/sigma/pantsbuild-basics)
 # pantsbuild_test
 Test repo for basic pants structure
 
