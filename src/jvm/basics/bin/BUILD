@@ -5,13 +5,6 @@ scala_library(
   sources = globs('*.scala'),
 )
 
-jvm_app(
-  name = 'basic',
-  dependencies = [
-    ':bin',
-  ],
-)
-
 jvm_binary(
   name = 'bin',
   dependencies = [
