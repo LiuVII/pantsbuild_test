@@ -12,9 +12,9 @@ Install Java
 
     brew cask install caskroom/versions/java8
 
-Install Scala 2.11, most likely via
+Install Scala 2.12, most likely via
 
-    brew install scala@2.11
+    brew install scala@2.12
 
 Clone the repo and run
 
