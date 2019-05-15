@@ -1,0 +1,22 @@
+# Basic pants-scala project 2019 @LiuVII
+
+jar_library(
+  name = 'scalac-plugin-dep',
+  jars = [
+    jar(
+      org = 'com.olegpy',
+      name = 'better-monadic-for_2.12',
+      rev = '0.2.4',
+    ),
+    jar(
+      org = 'org.scalamacros',
+      name = 'paradise_2.12.6',
+      rev = '2.1.0',
+    ),
+    jar(
+      org = 'org.spire-math',
+      name = 'kind-projector_2.12',
+      rev = '0.9.9',
+    ),
+  ]
+)
